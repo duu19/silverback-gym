@@ -1,0 +1,20 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+/* css */
+@import url(header/header.css);
+@import url(main/main.css);
+@import url(section-about/about.css);
+@import url(section-services/services.css);
+@import url(section-perso/perso.css);
+@import url(section-box-club/box-club.css);
+@import url(section-boxing/boxing.css);
+@import url(section-cite/cite.css);
+@import url(section-prices/prices.css);
+@import url(footer/footer.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}

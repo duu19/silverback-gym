@@ -1,0 +1,92 @@
+.perso-bg {
+    width: 100%;
+    background-color: #fff;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 2rem;
+}
+
+.perso-box {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.img1 {
+    width: 450px;
+}
+
+.img2 {
+    width: 500px;
+}
+
+.perso1 {
+    width: 300px;
+    font-size: 1.2rem;
+    margin-top: 2rem;
+}
+
+.perso1 blockquote {
+    padding: 15px 30px;
+    font-style: italic;
+}
+
+.perso1 span {
+    font-weight: bolder;
+}
+
+.perso2 {
+    width: 450px;
+    font-size: 1rem;
+    margin-top: 3rem;
+}
+
+.perso2 h2 {
+    text-transform: uppercase;
+    color: #87A96B;
+}
+
+.perso2 p {
+    margin-top: 1rem;
+}
+
+.btn-perso {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: #111;
+    padding: 5px;
+    text-decoration: none;
+    border: 1px solid #87A96B;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.btn-perso:hover {
+    transition: 0.5s;
+    background-color: #87A96B;
+    color: #fff;
+}
+
+@media (max-width: 820px) {
+    .perso-box {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 500px) {
+    .perso-box {
+        gap: 15px;
+    }
+    .perso2,.btn-perso h2,p {
+        margin-left: 1rem;
+    }
+
+    .img2 {
+        width: 300px;
+        display: block;
+        margin: 0 auto;
+    }
+}

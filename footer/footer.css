@@ -1,0 +1,31 @@
+.footer-bg {
+    height: auto;
+    width: 100%;
+    background: #111;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    font-weight: bolder;
+}
+
+.footer-bg p {
+    text-align: center;
+    padding: 5px;
+}
+
+.footer-icons {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 2rem;
+    padding: 10px;
+}
+
+.footer-icons a {
+    color: #fff;
+}
+
+.footer-icons a:hover {
+    transition: 0.5s;
+    color: #87A96B;
+}

@@ -1,0 +1,42 @@
+.about-bg {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    height: auto;
+    width: 100%;
+    font-family: 'Lato', sans-serif;
+}
+
+.about-box {
+    display: flex;
+    padding: 15px 30px;
+}
+
+.about-text1 {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    width: 50%;
+}
+
+.about-text2 {
+    font-size: 1.5rem;
+    width: 50%;
+    margin-top: 1rem;
+}
+
+@media (max-width: 900px) {
+    .about-text1 {
+        font-size: 1.5rem;
+    }
+    .about-text2 {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 500px) {
+    .about-text1 h1 {
+        font-size: 1rem;
+    }
+    .about-text2 {
+        font-size: 0.7rem;
+    }
+}
