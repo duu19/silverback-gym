@@ -22,7 +22,7 @@ img {
 
 .boxing-img {
     margin-bottom: 2rem;
-    margin-top: 2rem;
+    margin-top: 0rem;
     width: 400px;
 }
 
@@ -31,7 +31,7 @@ img {
     margin-top: 2rem;
     margin-bottom: 2rem;
     padding: 15px 30px;
-    background: #87A96B;
+    background: springgreen;
     color: #fff;
     width: 250px;
     height: auto;

@@ -44,7 +44,19 @@
         </div>
     </section>
 
-    <section class="services-bg">
+    <aside class="slides-bg">
+        <swiper-container class="mySwiper" pagination="true" pagination-clickable="true" navigation="true" space-between="30"
+        centered-slides="true" autoplay-delay="2500" autoplay-disable-on-interaction="false">
+        <swiper-slide><img src="img/slide1.jpg" alt=""></swiper-slide>
+        <swiper-slide><img src="img/slide2.jpg" alt=""></swiper-slide>
+        <swiper-slide><img src="img/slide3.jpg" alt=""></swiper-slide>
+        <swiper-slide><img src="img/slide1.jpg" alt=""></swiper-slide>
+        <swiper-slide><img src="img/slide2.jpg" alt=""></swiper-slide>
+        <swiper-slide><img src="img/slide3.jpg" alt=""></swiper-slide>
+      </swiper-container>
+    </aside>
+
+    <section class="services-bg" id="services">
         <div class="services-box">
             <div class="services-text">
                 <h2>boxe</h2>
@@ -64,7 +76,7 @@
         </div>
     </section>
 
-    <section class="perso-bg" id="services">
+    <section class="perso-bg">
         <div class="perso-box">
             <div class="perso1">
                 <img class="img1" src="img/perso2.png" alt="mike tyson jump rope">
@@ -74,7 +86,7 @@
             <div class="perso2">
                 <h2>personalized training</h2>
                 <p>We have a world class training team who is focused on helping you hit your fitness goals. Open 7 Days A Week.</p>
-                <a class="btn-perso" href="#">learn more</a>
+                <a class="btn-perso" href="#services">learn more</a>
                 <img class="img2" src="img/perso1.jpg" alt="training">
             </div>
         </div>
@@ -131,19 +143,19 @@
                 <p>R$9</p>
                 <h3>copper</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi veniam nesciunt dolorem voluptatem odit libero.</p>
-                <a class="btn-prices" href="#">buy</a>
+                <a class="btn-prices" href="#contact">buy</a>
             </div>
             <div class="prices-text silver">
                 <p>R$99</p>
                 <h3>silver</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi veniam nesciunt dolorem voluptatem odit libero.</p>
-                <a class="btn-prices" href="#">buy</a>
+                <a class="btn-prices" href="#contact">buy</a>
             </div>
             <div class="prices-text gold">
                 <p>R$999</p>
                 <h3>gold</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi veniam nesciunt dolorem voluptatem odit libero.</p>
-                <a class="btn-prices" href="#">buy</a>
+                <a class="btn-prices" href="#contact">buy</a>
             </div>
         </div>
     </section>
@@ -153,12 +165,14 @@
         <ul class="footer-icons">
             <li><a href="https://github.com/duu19" target="_blank"><i class="bi bi-github"></i></a></i></li>
             <li><a href="https://www.linkedin.com/in/duhenrique19/" target="_blank"><i class="bi bi-linkedin"></i></a></li>
-            <li><a href="https://github.com/duu19" target="_blank"><i class="bi bi-envelope-at"></i></a></i></li>
+            <li><a href="https://open.spotify.com/user/31spz3usi2iv2hiymiwp5gjmptbq?si=12f2e3b75aee46dc" target="_blank"><i class="bi bi-spotify"></i></a></i></li>
         </ul>
     </footer>
 
 
     <!-- javascript -->
     <script src="script.js"></script>
+    <!-- swiperjs-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
 </body>
 </html>

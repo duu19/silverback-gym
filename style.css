@@ -12,6 +12,7 @@
 @import url(section-cite/cite.css);
 @import url(section-prices/prices.css);
 @import url(footer/footer.css);
+@import url(slides/slides.css);
 
 * {
     margin: 0;

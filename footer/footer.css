@@ -9,7 +9,7 @@
 
 .footer-bg p {
     text-align: center;
-    padding: 5px;
+    padding: 10px;
 }
 
 .footer-icons {
@@ -27,5 +27,5 @@
 
 .footer-icons a:hover {
     transition: 0.5s;
-    color: #87A96B;
+    color: springgreen;
 }
