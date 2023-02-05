@@ -24,3 +24,9 @@
         font-size: 4rem;
     }
 }
+
+@media (max-width: 350px) {
+    .main-bg h1 {
+        font-size: 3rem;
+    }
+}

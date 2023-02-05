@@ -1,15 +1,11 @@
-body {
-    overflow-x: hidden;
-}
-
 header a {
     color: #fff;
     text-decoration: none;
-    transition: 0.3s;
+    transition: 0.5s;
     text-transform: uppercase;
 }
 a:hover {
-    transition: 0.3s;
+    transition: 0.5s;
     color: springgreen;
   }
   
@@ -55,7 +51,7 @@ nav {
   
 @media (max-width: 999px) {
     body {
-      overflow-x: hidden;
+    overflow-x: hidden;
     }
     .nav-list {
       text-transform: uppercase;  
