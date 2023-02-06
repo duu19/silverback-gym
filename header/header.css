@@ -50,9 +50,6 @@ nav {
 }
   
 @media (max-width: 999px) {
-    body {
-    overflow-x: hidden;
-    }
     .nav-list {
       text-transform: uppercase;  
       font-weight: bold;

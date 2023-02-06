@@ -23,10 +23,10 @@
     padding: 15px 30px;
     height: auto;
     width: 400px;
-    border: 1.5px solid black;
-    border-radius: 3px;
-    background: #fff;
-    color: #111;
+    border: 3px solid #111;
+    border-radius: 8px;
+    background: #111;
+    color: #fff;
 }
 
 .prices-text h3 {
@@ -39,9 +39,10 @@
     margin-top: 2rem;
     margin-bottom: 2rem;
     color: #111;
+    background: #fff;
     padding: 5px;
     text-decoration: none;
-    border: 1px solid #111;
+    border: 2px solid #fff;
     border-radius: 4px;
     display: flex;
     justify-content: center;
@@ -51,13 +52,14 @@
 
 .btn-prices:hover {
     transition: 0.5s;
-    background: #111;
-    color: #fff;
+    background: #fff;
+    border: 1px solid #111;
+    color: #111;
 }
 
 .copper:hover {
     transition: 0.3s;
-    border: 1px solid #b87333;
+    border: 3px solid #b87333;
 }
 
 .copper h3 {
@@ -66,7 +68,7 @@
 
 .silver:hover {
     transition: 0.3s;
-    border: 1px solid silver;
+    border: 3px solid silver;
 }
 
 .silver h3 {
@@ -75,7 +77,7 @@
 
 .gold:hover {
     transition: 0.3s;
-    border: 1px solid gold;
+    border: 3px solid gold;
 }
 
 .gold h3 {
