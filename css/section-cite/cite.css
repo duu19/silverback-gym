@@ -1,5 +1,7 @@
 .cite-bg {
-    background:springgreen;
+    background:#00A196;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     height: auto;
     width: 100%;
 }
@@ -14,8 +16,8 @@
     color: #fff;
 }
 
-.black-color {
-    color: #111;
+.white1-color {
+    color: #f0efef;
 }
 
 @media (max-width: 900px) {
